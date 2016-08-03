@@ -1,0 +1,97 @@
+.sidebarmenu{
+	display: none;
+	position: relative;
+
+}
+
+.content{
+	margin-left:0px;
+
+}
+
+
+.menuline{
+	display: block;
+	background-color:#0E1116;
+	position: fixed;
+	width: 100%;
+	float: top;
+	z-index: 100;
+	}
+
+.menuline ul {
+	text-align: center;
+}
+
+.menuline ul li:hover{
+	background-color: #e0f9ea;
+}
+
+
+	
+@media(max-width: 400px){
+	#iconid{
+		height: 30px;
+		width: auto;
+	}
+
+	#iconacademic{
+		height: 30px;
+		width: auto;
+	}
+
+
+	#iconexperience{
+		height: 30px;
+		width: auto;
+	}
+
+
+	#icongoals{
+		height: 30px;
+		width: auto;
+	}
+
+	#iconcontato{
+		height: 30px;
+		width: auto;
+	}
+
+
+	.content{
+	margin-top: 50px;
+}
+	.menuline ul li{
+	display: inline-block;
+	margin: 3px;
+	padding: 5px;
+	background-color: #151921;
+	}
+
+	.menuline{
+		margin-top: -50px;
+
+	}
+
+
+}
+
+
+@media(min-width: 400px){
+
+.menuline ul li{
+	display: inline-block;
+	margin: 3px;
+	padding: 6px;
+	background-color: #151921;
+
+	}
+
+	.content{
+	margin-top: 75px;
+}
+
+	.menuline{
+		margin-top: -75px;
+	}
+

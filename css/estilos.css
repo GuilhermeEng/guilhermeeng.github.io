@@ -1,0 +1,276 @@
+* {margin: 0; padding: 0;}
+
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #342e37;
+
+	text-align: justify;
+	font-family: "Montserrat-Light";
+	padding-bottom: 500px;
+	background-image: url(../img/backbody.png);
+	background-attachment: fixed;
+
+
+}
+
+
+@media (min-width: 200px) {
+   	body {
+        font-size: 10pt;
+    }
+    .sidebarmenu ul li{
+		font-size: 7pt;
+	}
+
+	.softwares img{
+	width: 60px;
+	height: 60px;
+	}
+	#iconemail{
+		width: 40px;
+		height: 50px;
+
+	}
+
+}
+
+
+@media (min-width: 800px) {
+   	body {
+        font-size: 12pt;
+    }
+
+    .sidebarmenu ul li{
+		font-size: 9pt;
+	}
+
+	.softwares img{
+	width: 80px;
+	height: 80px;
+	}
+
+	#iconemail{
+		width: 60px;
+		height: 70px;
+
+	}
+}
+
+
+@media (min-width: 1200px) {
+   	body {
+        font-size: 14pt;
+    }
+
+    .sidebarmenu ul li{
+		font-size: 10pt;
+	}
+
+	.softwares img{
+	width: 100px;
+	height: 100px;
+}
+}
+
+.menuline{
+	display: none;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+h1 {
+	font-family: "Arial";
+	text-transform: uppercase;
+	font-size: larger;
+
+}
+
+h2 {
+	font-family: sans-serif;
+} 
+
+
+h3 {
+	padding-top: 10px;
+	font-family: sans-serif;
+	font-size: large;
+} 
+
+
+p{
+	font-family: "Arial";
+}
+
+
+.sidebarmenu{
+	width: 20%;
+	position: left;
+	height: 100%;
+	position: fixed;
+	float: left;
+	background-color: #0E1116;
+	text-align: left;
+	overflow:hidden;
+	opacity: 0.95;
+	
+	
+}
+
+.sidebarmenu li{
+	width: auto;
+
+
+}
+
+
+
+.sidebarmenu ul li{
+	font-family: "Arial";
+	letter-spacing: 2px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 3px 0px 3px 0px;
+	height: 100%;
+	padding-left: 4px;
+	background-color: #151921;
+	width: auto;
+	border-radius: 2px;
+
+}
+
+
+.sidebarmenu ul li:hover{
+	background-color: #e0f9ec;
+
+}
+
+
+.sidebarmenu a{
+	color:#44bba4;
+	display: block;
+	width: auto;
+	
+}
+
+.foto{
+	
+    display: block;
+    float: center;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+#capa{
+	position:relative;
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+    float: center;
+	
+}
+
+
+ 
+.content{
+	margin-left: 20%;
+    height: auto;
+    width: auto;
+    position: relative;
+    overflow: auto;
+    padding: 10px;
+    z-index: 1;
+}
+
+.content p {
+	
+	color:#534D56;
+	
+}
+
+.content h3 {
+	
+	color:#534D56;
+	padding-bottom: 5px;
+
+}
+.TitulosMenu{
+	color:#333232;
+	padding-bottom: 15px;
+	padding-top: 10px;
+
+		
+}
+
+.section{
+	padding-bottom: 11px;
+}
+
+.formacao p{
+	padding-bottom: 10px;
+}
+
+
+.experiencia p{
+	padding-bottom: 15px;
+}
+
+.softwares img {
+	align-content: center;
+	
+}
+
+.backblock{
+	background-color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+	border-radius: 1px 1px 1px 1px;
+	opacity: 0.85;
+
+}
+
+.email{
+	width: auto;
+	display: block;
+	text-align: center;
+	padding-bottom: 15px;
+	text-decoration: none;
+
+
+}
+
+#linkmail{
+
+	text-decoration: none;
+
+}
+
+
+.containerfoto{
+	display: block;
+    float: center;
+	height: auto;
+	width: 100%;
+
+	}
+
+#imgabout{
+	position:relative;
+	width: 100%;
+	height: auto;
+	float: center;
+    
+	}
+
+
